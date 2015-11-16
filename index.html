@@ -53,7 +53,8 @@ for(var i=0;i<5;i++)
 {
 img=document.createElement("IMG");
 A=document.createElement("A");
-A.href=""+i;
+A.href=i+".png";
+A.title=i+".png";
 img.src=i+".png";
 img.width=140; 
 img.height=210;
@@ -62,7 +63,7 @@ img.onmouseover=function(e){
 //alert(this.id)
 }
 A.appendChild(img)
-document.getElementById("demo1").appendChild(img)
+document.getElementById("demo1").appendChild(A)
 }
 
 </script>
