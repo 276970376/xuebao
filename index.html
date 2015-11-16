@@ -1,0 +1,31 @@
+<style>
+
+body{ text-align:center} 
+div{ margin:0 auto; width:800; border-radius:5px;border:3px solid #009900} 
+
+</style>
+<body >
+
+<div class="div">
+<h2><b><font color=#ff0000>雪豹真人CS--教管风采</font></b></h2>
+<marquee id=mar>
+<script>
+var src="http://w.qhimg.com/images/v2/site/cs/2013/jiaoguan/s/"
+var img;
+for(var i=1;i<=5;i++)
+{
+img=document.createElement("IMG");
+img.src=src+i+".JPG";
+img.width=140; 
+img.height=210;
+img.id="id"+i;
+img.onmouseover=function(e){
+alert(this.id)
+}
+document.getElementById("mar").appendChild(img)
+}
+
+</script>
+</marquee>
+</div>
+</body>
