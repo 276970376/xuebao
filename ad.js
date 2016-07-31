@@ -44,13 +44,13 @@
 		}	
 		
 	var theFloaters		= new floaters();
-	//右面
-	theFloaters.addItem('followDiv1','document.body.clientWidth-260',200,'<iframe class=VimeoPlayer WIDTH=250 HEIGHT=250 src="http://player.youku.com/embed/XMTM3NjE0Nzc4OA=="/src="http://player.youku.com/embed/XMTM1NjU4MjA2NA=="/></iframe>');
-	//左面
+	//鍙抽潰
+	theFloaters.addItem('followDiv1','document.body.clientWidth-260',200,'<iframe height=498 width=510 src="http://player.youku.com/embed/XMTQ0MjM5MzcxNg==" frameborder=0 allowfullscreen></iframe>');
+	//宸﹂潰
 	theFloaters.addItem('followDiv2',6,200,'<iframe class=VimeoPlayer WIDTH=250 HEIGHT=250 src="http://player.youku.com/embed/XMTM1NjU4MjA2NA=="/></iframe>'
 );
 	theFloaters.play();
 	
-//图片格式调用方法
+//鍥剧墖鏍煎紡璋冪敤鏂规硶
 //<a href=http://www.makewing.com/lanren/ target=_blank><img src=images/ad_100x300.jpg border=0></a>
 	
